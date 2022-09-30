@@ -1,3 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 317px;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: #23252C;
+  margin: 0;
+  align-items: center;
+}
+
+.my-image{
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info-comp{
+  background: #1A1B21;
+}
+.info-comp > h1{
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.info-comp > h2{
+  font-weight: 400;
+  font-size: 12.8px;
+  text-align: center;
+  color: #F3BF99;
+  margin-bottom: 5px;
+}
+
+.info-comp > h3{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.info-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.email-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 34px;  
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px; 
+  margin-right: 12px;
+}
+.email-button > img{
+  margin-right: 5px;
+}
+.email-button > h4{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+}
+.link-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  width: 115px;
+  height: 34px;
+  border: 1px solid #5093E2;
+  background: #5093E2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.link-button > img{
+  margin-right: 5px;
+}
+.link-button > h4{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.about-comp{
+  background: #1A1B21;
+  padding-top: 10px;
+  padding-left: 38px;
+}
+.about-comp > h1{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+  margin-bottom: 0px;
+}
+.about-comp > h2{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  max-width: 240px;
+  margin-top: 0px;
+}
+.interest-h2{
+  padding-bottom: 35px;
+}
+.footer-comp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  height: 64px;
+}
+.footer-comp > img{
+  background: #918E9B;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+/*
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +147,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*/
